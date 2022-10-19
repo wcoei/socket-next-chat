@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import io, { Socket } from 'Socket.IO-client'
+import io, { Socket } from 'socket.io-client'
 import { Message } from '../types/message'
 import { useUserContext } from '../context/user'
 import { text } from 'stream/consumers';

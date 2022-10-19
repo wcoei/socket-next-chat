@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { Server, Socket } from 'Socket.IO'
+import { Server, Socket } from 'socket.io'
 import { Message } from '../../types/message'
 
 const SocketHandler = (req: any, res: any) => {
