@@ -20,7 +20,7 @@ const Layout = ({ children }: LayoutProps) => {
             router.push('/welcome')
             return
         }
-    }, [])
+    }, [user, router, url])
 
     return (
         <>
