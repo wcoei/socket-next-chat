@@ -29,6 +29,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+(socket.io is not stateless therefore cannot utilize vercel stateless function in deployment)
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Reference
+- [Using socket.io in nextjs](https://blog.logrocket.com/implementing-websocket-communication-next-js/)
+- [State management and _app.ts](https://blog.logrocket.com/guide-state-management-next-js/)
+
+## TODO
+- [res and req types for socket.io and nextjs API](https://stackoverflow.com/questions/74023393/working-with-typescript-next-js-and-socket-io)
